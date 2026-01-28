@@ -21,7 +21,7 @@ services:
 
   # Evolution API para WhatsApp
   evolution-api:
-    image: evoapicloud/evolution-api:v2.3.1
+    image: evoapicloud/evolution-api:v2.3.7
     container_name: moveis_evolution
     restart: unless-stopped
     ports:
